@@ -10,7 +10,7 @@ import { FiLogOut } from "react-icons/fi";
 
 const Sidebar = () => {
   return (
-    <div className="w-[15%] h-screen p-2 flex flex-col gap-2 hidden lg:flex">
+    <div className="w-[15%] h-screen p-2 flex flex-col gap-2  lg:flex">
       <div className="bg-white h-full rounded flex flex-col justify-between">
         <div>
           <div className="h-[10%] mt-2 flex justify-center">
@@ -29,8 +29,7 @@ const Sidebar = () => {
               <FaTicketSimple size={30} />
               <select className="gap-3 bg-blue-200" id="dropdown" name="options">
                 <option value="">
-                  <FaTicketSimple />
-                  <h1>Tickets</h1>
+                  Ticket
                 </option>
                 <option value="option1">Ticket overview</option>
                 <option value="option2">Book New Ticket</option>

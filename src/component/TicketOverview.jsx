@@ -4,7 +4,7 @@ const TicketOverview = () => {
   return (
     <>
       <h1 className="font-bold text-left p-2">Ticket Overview</h1>
-      <div className="p-2 h-auto bg-white rounded mr-2 w-full sm:w-[98%]">
+      <div className="p-2 h-auto bg-white rounded mr-2 w-full sm:w-[97%]">
         <div className="flex flex-wrap">
           <div className="w-full sm:w-1/4 p-4 flex items-center justify-center gap-3">
             <div className="flex justify-center text-blue-600">

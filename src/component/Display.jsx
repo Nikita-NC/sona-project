@@ -11,6 +11,7 @@ const Display = () => {
             type="text"
             placeholder="search by name, ID, bus destination, etc"
             className="p-2 rounded w-full h-10 pr-10"
+            style={{width:"100%"}}
           />
           <CiSearch className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-400" />
         </div>

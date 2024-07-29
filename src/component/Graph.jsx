@@ -92,7 +92,7 @@ const Graph = () => {
   return (
     <>
       <h1 className="font-bold text-left p-2 mt-2">Recent Ticket</h1>
-      <div className="p-2 h-[65%] bg-white rounded mr-2 w-[98%]">
+      <div className="p-2 h-[75%] bg-white rounded mr-2 w-[98%]">
         <div className="flex justify-end">
           <select
             onChange={(e) => setTimeframe(e.target.value)}

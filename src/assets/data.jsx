@@ -14,10 +14,13 @@ export const monthlyData = [
 ];
 
 export const weeklyData = [
-  { week: 'Week 1', total: 100 },
-  { week: 'Week 2', total: 150 },
-  { week: 'Week 3', total: 200 },
-  { week: 'Week 4', total: 250 },
+  { week: 'Week 1', total: 400 },
+  { week: 'Week 2', total: 250 },
+  { week: 'Week 3', total: 320 },
+  { week: 'Week 4', total: 200 },
+  { week: 'Week 5', total: 180 },
+  { week: 'Week 6', total: 350 },
+  { week: 'Week 7', total: 250 },
 ];
 
 export const annualData = [

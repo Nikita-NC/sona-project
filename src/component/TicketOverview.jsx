@@ -5,7 +5,7 @@ const TicketOverview = () => {
     <>
       <h1 className="font-bold text-left p-2">Ticket Overview</h1>
       <div className="p-2 h-[25%] bg-white rounded mr-2 w-[98%]">
-        <div className="flex  p-2   ">
+        <div className="flex">
           <div className="w-1/4 p-4 flex items-center justify-center gap-3">
             <div className=" flex justify-center text-blue-600">
               <MdAirlineSeatReclineNormal size={50} />

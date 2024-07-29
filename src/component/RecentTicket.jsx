@@ -2,6 +2,8 @@
 import { recentSearch } from "../assets/data";
 import "./Style.css";
 import { CiSearch } from "react-icons/ci";
+import { IoPrintOutline } from "react-icons/io5";
+import { CiExport } from "react-icons/ci";
 
 const RecentTicket = () => {
 //   const [color, setColor] = useState("green");
@@ -30,12 +32,8 @@ const RecentTicket = () => {
           </div>
 
           <div className="export">
-            <button type="submit" className="button1">
-              Export
-            </button>
-            <button type="submit" className="button1">
-              Print
-            </button>
+          <button type="submit" className="button1"><CiExport />Export</button>
+          <button type="submit" className="button1"><IoPrintOutline />print</button>
           </div>
         </div>
 
